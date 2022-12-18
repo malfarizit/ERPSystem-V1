@@ -1,0 +1,113 @@
+
+body {
+    background-image: url(../img/bg-login.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+
+.lif {
+	position:relative;
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #fff;
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 0px;
+	max-width: 100%;
+	overflow: hidden;
+	border: 10px solid rgba(0, 0, 0, 0.3);
+	-moz-background-clip: border;     /* Firefox 3.6 */
+	-webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+	background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+	-moz-background-clip: padding;     /* Firefox 3.6 */
+	-webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+	background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+	-moz-background-clip: content;     /* Firefox 3.6 */
+	-webkit-background-clip: content;  /* Safari 4? Chrome 6? */
+	background-clip: content-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+}
+.liflogo {
+	position:relative;
+	width:100%;
+	text-align:center;
+	z-index:100;
+}
+.liflogo img{
+	width:200px;
+	height:auto;
+}
+
+
+.lif p{
+	display: block;
+	width: 100%;
+	font-family:'lato2';
+	font-size: 20px;
+}
+.lif input[type=text],
+.lif input[type=password] {
+	padding: 10px;
+	width: 400px;
+	border: none;
+	border: 1px  solid rgba(46, 204, 113, 1);
+	display:inline-block;
+	margin-bottom: 10px;
+	font-family:'lato1';
+	font-size: 20px;
+}
+.lif input[type=text]:focus ,
+.lif input[type=password]:focus  {
+	background-color: rgba(46, 204, 113, 1);
+	color: #fff;
+}
+
+
+.lif input[type=submit]{
+	padding: 10px;
+	font-family:'lato4';
+	background-color:#2980b9;
+	color:#fff;
+	border:none;
+	width:400px;
+	margin-bottom:10px;
+	margin-top:10px;
+	font-weight: bold;
+}
+.lif input[type=submit]:active,
+.lif input[type=submit]:focus{
+	padding: 10px;
+
+	background-color:#2ecc71;
+	color:#fff;
+	border:none;
+	width:400px;
+	margin-bottom:10px;
+	margin-top:10px;
+	font-weight: bold;
+}
+.lifhead {
+	position: relative;
+	width: 100%;
+	color: #fff;
+	padding: 5px 10px 10px 10px;
+	font-family: 'lato4';
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 10px;
+	background-color: #2ecc71;
+}
+
+.lifhead > h1 {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+.errorlg {
+	width: 100%;
+	background-color:#e74c3c;
+	padding:10px 0 10px 0;
+	color:#fff;
+	margin-bottom: 10px;
+}

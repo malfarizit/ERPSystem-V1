@@ -1,0 +1,32 @@
+@font-face {
+    font-family: md;
+    src: url(../font/aenea.ttf);
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(../font/bebas.ttf);
+}
+
+@font-face {
+    font-family: lato1;
+    src: url(../font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: lato2;
+    src: url(../font/Lato-Semibold.ttf);
+}
+
+
+@font-face {
+    font-family: lato3;
+    src: url(../font/Lato-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: lato4;
+    src: url(../font/Lato-Black.ttf);
+}
+
